@@ -1,0 +1,18 @@
+{
+  "name": "sendpost-netlify-functions-example",
+  "version": "1.0.0",
+  "description": "SendPost email integration with Netlify Functions",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "sendpost-js-sdk": "^1.2.4"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "netlify-cli": "^17.0.0",
+    "typescript": "^5.0.0"
+  }
+}
